@@ -32,6 +32,10 @@ label {
     font-size: 1.5rem;
 }
 
+table {
+    font-size: 1.5rem;
+}
+
 li {
     font-size: 1.5rem;
 }
@@ -46,6 +50,18 @@ li {
 
 .justify-content-center {
     justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.background-success {
+    background: green;
+    color: #fff;
 }
 
 .align-items-center {
@@ -94,6 +110,7 @@ li {
     font-weight: 500;
     font-size: 1.5rem;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
 
 .main-button.blue {

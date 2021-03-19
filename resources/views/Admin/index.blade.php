@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>HALLO Admin</h1>
-    <a href="{{route('logoutadmin')}}">Logout</a>
-</body>
-</html>
+@extends('admin.layouts.master')
+@section('title', 'SMK INDONESIA')
+@section('content')
+    <div class="content my-2">
+        <h1>Selamat Datang Admin</h1>
+    </div>
+@endsection

@@ -12,6 +12,9 @@ class LoginAdminController extends Controller
 
     public function index()
     {
+        if (session('admin_sukses')) {
+            return redirect('admin');
+        }
         return view('auth.loginadmin');
     }
     public function login(Request $req)
